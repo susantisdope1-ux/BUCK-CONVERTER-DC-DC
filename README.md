@@ -85,10 +85,30 @@ This project helped me understand that a PCB should always receive one final ins
 
 ---
 
-## Files
+# Images
 
+## Schematic
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/665a5656-2fc7-4b97-9508-a925cec50342" width="900">
+</p>
 
+---
+
+## PCB Layout
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86de4717-574c-4d85-8c35-83d6fb2d57ec" width="700">
+</p>
+
+---
+
+## 3D View
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5c908d95-6757-412f-afb5-6faa233b9fde" width="48%">
+  <img src="https://github.com/user-attachments/assets/1118f19d-c7c9-45bb-b976-22a6b33207bb" width="48%">
+</p>
 ---
 
 ## What I Learned
