@@ -27,13 +27,13 @@ I designed the schematic and PCB in **EasyEDA**. This was my first power electro
 
 ## Design Process
 
-I started by studying the buck converter circuit and recreating it in EasyEDA. After completing the schematic, I converted it into a PCB and began placing the components.
+I began by building the buck converter circuit and drawing it in EasyEDA. Once the schematic was finished I added a PCB and started placing the parts.
 
-The first PCB layout worked, but it wasn't very clean. I rearranged the components several times to make routing easier and shorten the high-current traces. After routing, I added a ground plane and silkscreen labels to make the board easier to assemble.
+The initial PCB layout was successful, but not very pretty. I rearranged the components and wires a number of times to improve the routing and reduce the length of the high-current traces. When I was finished with the routing I added a ground plane and silk screen labels.
 
-During the final review, I found that one capacitor and one transistor had become unrouted while making some last-minute layout changes. After fixing the missing connections, I rebuilt the copper pour, ran the Design Rule Check (DRC), and generated the manufacturing files.
+I discovered that one cap and one transistor were unrouted during the final review due to placing the final layout changes. After correcting these missing connections I rebuilt the copper pour, ran the DRC and created the manufacturing files.
 
-This project taught me that even after a PCB looks finished, it's important to do one final inspection before ordering.
+From this project, I learned that I should give the PCB that I designed a final check before I order it, even if its enough finished.
 
 ---
 
