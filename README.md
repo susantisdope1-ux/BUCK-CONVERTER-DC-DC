@@ -12,6 +12,31 @@ I designed the schematic and PCB in **EasyEDA**. This was my first power electro
 
 ---
 
+---
+
+# Images
+
+## Schematic
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/665a5656-2fc7-4b97-9508-a925cec50342" width="900">
+</p>
+
+## PCB Layout
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86de4717-574c-4d85-8c35-83d6fb2d57ec" width="700">
+</p>
+
+## 3D View
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5c908d95-6757-412f-afb5-6faa233b9fde" width="48%">
+  <img src="https://github.com/user-attachments/assets/1118f19d-c7c9-45bb-b976-22a6b33207bb" width="48%">
+</p>
+
+---
+
 ## Features
 
 - SG3524N PWM controller
@@ -27,13 +52,13 @@ I designed the schematic and PCB in **EasyEDA**. This was my first power electro
 
 ## Design Process
 
-I began by building the buck converter circuit and drawing it in EasyEDA. Once the schematic was finished I added a PCB and started placing the parts.
+I then proceeded to build the buck converter circuit and draw the schematic using EasyEDA. Once the schematic design was done, I proceeded to add the PCB and place the components.
 
-The initial PCB layout was successful, but not very pretty. I rearranged the components and wires a number of times to improve the routing and reduce the length of the high-current traces. When I was finished with the routing I added a ground plane and silk screen labels.
+The PCB design turned out well, although the design did not look neat at all. I moved the components around a number of times, trying to route the traces while at the same time reducing their length. Once the routing was done, I added the ground plane and silk screen label.
 
-I discovered that one cap and one transistor were unrouted during the final review due to placing the final layout changes. After correcting these missing connections I rebuilt the copper pour, ran the DRC and created the manufacturing files.
+What I found is that one capacitor and one transistor were unrouted when I came to the point of checking the final design because of the late placement of the final changes. After fixing the unrouted traces I redid the copper pour and DRC before saving the manufacturing files.
 
-From this project, I learned that I should give the PCB that I designed a final check before I order it, even if its enough finished.
+What I've learned from this project is that I need to perform one last check on the board I'm designing before sending it for manufacture.
 
 ---
 
@@ -68,42 +93,18 @@ From this project, I learned that I should give the PCB that I designed a final 
 - JLCPCB Parts Library
 - Gerber Viewer
 
----
 
-# Images
-
-## Schematic
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/665a5656-2fc7-4b97-9508-a925cec50342" width="900">
-</p>
-
-## PCB Layout
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/86de4717-574c-4d85-8c35-83d6fb2d57ec" width="700">
-</p>
-
-## 3D View
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5c908d95-6757-412f-afb5-6faa233b9fde" width="48%">
-  <img src="https://github.com/user-attachments/assets/1118f19d-c7c9-45bb-b976-22a6b33207bb" width="48%">
-</p>
-
----
 
 ## What I Learned
+From this project I gained knowledge about:
 
-Through this project I learned:
-
-- Designing a buck converter schematic
-- PCB component placement
-- PCB routing
+- Schematic design for a buck converter
+- Component placement on PCB
+- Routing
 - Ground plane design
 - Silkscreen placement
-- Running DRC checks
-- Preparing Gerber and BOM files
-- Reviewing a PCB before manufacturing
+- DRC check
+- Preparation of Gerber and BOM files
+- Checking a PCB before manufacturing
 
-Although this is a simple project, it helped me understand the complete workflow of designing a switching power supply PCB from idea to production files.
+Though it is a very basic project, it gave me an insight into the entire process of designing a switching power supply PCB from conception till production.
