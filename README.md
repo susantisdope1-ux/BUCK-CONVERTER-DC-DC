@@ -86,6 +86,14 @@ What I've learned from this project is that I need to perform one last check on 
 > Some components in the exported BOM do not have an LCSC price, so they are not included in the total cost.
 
 ---
+##  Order Summary (JLCONE)
+
+| Field | Value |
+|-------|------:|
+| Merchandise Total (1 item) | $11.70 |
+| Shipping (Estimated) | $34.99 |
+| Coupon | -$10.00 |
+| **Subtotal** | **$36.69** |
 
 ## Software Used
 
